@@ -1,0 +1,24 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "The Fine Art of Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montacerdk/the-fine-art-nodejs.git"
+  },
+  "author": "Montacer Dkhilali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montacerdk/the-fine-art-nodejs/issues"
+  },
+  "homepage": "https://github.com/montacerdk/the-fine-art-nodejs#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
