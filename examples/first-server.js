@@ -1,7 +1,9 @@
 const http = require("http");
 
+const SERVER_PORT = 3002;
+
 const server = http.createServer((req, res) => {
-  console.log("Listinging");
+  console.log(`Server is listening on port ${SERVER_PORT}`);
 });
 
-server.listen(3002);
+server.listen(SERVER_PORT);
